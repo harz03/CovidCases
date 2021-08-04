@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:gravity="center_horizontal">
+
+
+    <TextView
+        android:fontFamily="@font/uchen_regular"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmed"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/textcolor"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/round">
+
+        <ImageView
+
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/confirm" />
+
+        <TextView
+            android:id="@+id/tvConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:fontFamily="@font/uchen_regular"
+            android:gravity="center"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/textcolor"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/uchen_regular"
+        android:gravity="center"
+        android:text="Active"
+        android:textColor="@color/textcolor"
+        android:textSize="18sp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/round">
+
+        <ImageView
+
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/flu" />
+
+        <TextView
+            android:id="@+id/tvActive"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:fontFamily="@font/uchen_regular"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/textcolor"
+            android:textSize="25sp" />
+
+    </LinearLayout> <TextView
+    android:fontFamily="@font/uchen_regular"
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Recovered"
+    android:gravity="center"
+    android:textSize="18sp"
+    android:textColor="@color/textcolor"
+    />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/round">
+
+        <ImageView
+
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/recovered" />
+
+        <TextView
+            android:id="@+id/tvRecovered"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:fontFamily="@font/uchen_regular"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/textcolor"
+            android:textSize="25sp" />
+
+    </LinearLayout> <TextView
+    android:fontFamily="@font/uchen_regular"
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Decreased"
+    android:gravity="center"
+    android:textSize="18sp"
+    android:textColor="@color/textcolor"
+    />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/round">
+
+        <ImageView
+
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/grave" />
+
+        <TextView
+            android:id="@+id/tvDecreased"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:fontFamily="@font/uchen_regular"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/textcolor"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+   
+
+
+</LinearLayout>
+</LinearLayout>
